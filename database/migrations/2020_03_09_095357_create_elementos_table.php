@@ -14,7 +14,7 @@ class CreateElementosTable extends Migration
     public function up()
     {
         Schema::create('elementos', function (Blueprint $table) {
-            $table->id();
+            $table->bigIncrements('id');
             $table->string('tipo');
             $table->string('contenido');
             $table->unsignedBigInteger('columna_id');

@@ -14,7 +14,7 @@ class CreateCircuitosTable extends Migration
     public function up()
     {
         Schema::create('circuitos', function (Blueprint $table) {
-            $table->id();
+            $table->bigIncrements('id');
             $table->Integer('nivel');
             $table->Integer('padre')->nullable();
             $table->string('titulo');

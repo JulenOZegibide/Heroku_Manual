@@ -14,7 +14,7 @@ class CreatePaginasTable extends Migration
     public function up()
     {
         Schema::create('paginas', function (Blueprint $table) {
-            $table->id();
+            $table->bigIncrements('id');
             $table->string('titulo');
             $table->unsignedBigInteger('circuito_id');
         });

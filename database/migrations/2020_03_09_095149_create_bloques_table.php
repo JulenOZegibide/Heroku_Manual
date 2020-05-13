@@ -14,7 +14,7 @@ class CreateBloquesTable extends Migration
     public function up()
     {
         Schema::create('bloques', function (Blueprint $table) {
-            $table->id();
+            $table->bigIncrements('id');
             $table->string('titulo');
             $table->unsignedBigInteger('pagina_id');
         });

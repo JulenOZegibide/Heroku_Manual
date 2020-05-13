@@ -14,7 +14,7 @@ class CreateColumnasTable extends Migration
     public function up()
     {
         Schema::create('columnas', function (Blueprint $table) {
-            $table->id();
+            $table->bigIncrements('id');
             $table->string('titulo');
             $table->string('ancho')->nullable();
             $table->unsignedBigInteger('bloque_id');

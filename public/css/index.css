@@ -4,11 +4,7 @@
 body{
     background-color: lightsteelblue;
 }
-#contenedor{
-    max-width: 1200px;
-    margin:0 auto;
-    min-height: 795px;
-}
+
 #contenedor iframe{
     width: 50%;
     height: 20rem;

@@ -7,16 +7,14 @@
 
         <h3>{{$bloque->titulo}}</h3>
 
-
-
-        <div style="position: relative; max-width: 1260px;margin: 0 auto;">
+        <div style="width: 1260px;margin: 0 auto;background-color: red;height: 300px;position: relative;">
             <!--Recorro las columnas que contiene cada bloque-->
             @foreach($columnas as $columna)
             @php
                 $elementos = $columna->elemento;
 
             @endphp
-                <div id="column_container" style="position: absolute; width: {{$columna->ancho . 'px'}}; height: {{$columna->alto . 'px'}}; left:{{$columna->espacio_izquierda . 'px'}}; top:{{$columna->espacio_arriba . 'px'}}">
+                <div id="column_container" style="border: 1px solid black; position: absolute; width: {{$columna->ancho . 'px'}}; height: {{$columna->alto . 'px'}}; left:{{$columna->espacio_izquierda . 'px'}}; top:{{$columna->espacio_arriba . 'px'}}">
                 <strong>{{$columna->titulo}}</strong>
 
                 <!--Recorro los elementos que contiene cada columna y los muestro-->
@@ -40,8 +38,18 @@
             </div>
             @endforeach
         </div>
-
-
     @endforeach
 @endif
+<hr>
+<hr>
+<hr>
+<hr>
 
+<div style="width: 1260px;margin: 0 auto;background-color: red;height: 300px;position: relative;">
+    <div style="border: 1px solid black;height: 300px; width: 700px;position: absolute;">
+        <p style="position: absolute;left: 0;top: 0">Can't go through the whole song without getting emotional. This is what real good music does to you. Everytime I hear "I had a dream I was you..." tears come down from my eyes.</p>
+    </div>
+    <div style="border: 1px solid black;height: 300px;width: 560px;position: absolute;left: 700px;">
+        <p style="position: absolute;left: 0;top: 0">Can't go through the whole song without getting emotional. This is what real good music does to you. Everytime I hear "I had a dream I was you..." tears come down from my eyes.</p>
+    </div>
+</div>

@@ -6,7 +6,9 @@
     @foreach($bloques as $bloque)
 
         <h3>{{$bloque->titulo}}</h3>
-
+            @php
+            $columnas = $bloque->columna;
+            @endphp
         <div style="width: 1260px;margin: 0 auto;background-color: red;height: 300px;position: relative;">
             <!--Recorro las columnas que contiene cada bloque-->
             @foreach($columnas as $columna)

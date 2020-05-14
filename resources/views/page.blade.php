@@ -30,7 +30,7 @@
                         <h4 style="position: absolute; width: {{$elemento->ancho . 'px'}}; height: {{$elemento->alto . 'px'}}; left:{{$elemento->espacio_izquierda . 'px'}}; top:{{$elemento->espacio_arriba . 'px'}}">{{$elemento->contenido}}</h4>
                         @break
                         @case('p')
-                        <p style="position: absolute; width: {{$elemento->ancho . 'px'}}; height: {{$elemento->alto . 'px'}}; left:{{$elemento->espacio_izquierda . 'px'}}; top:{{$elemento->espacio_arriba . 'px'}}">{{$elemento->contenido}}</p>
+                        <p style="position: absolute; width: {{$elemento->ancho . 'px'}}; height: {{$elemento->alto . 'px'}}; left:{{$elemento->espacio_izquierda . 'px'}}; top:{{$elemento->espacio_arriba . 'px'}}; font-size:13px">{{$elemento->contenido}}</p>
                         @break
                         @case('video')
                         <iframe src="{{$elemento->contenido}}" frameborder="0" allowfullscreen style="position: absolute; width: {{$elemento->ancho . 'px'}}; height: {{$elemento->alto . 'px'}}; left:{{$elemento->espacio_izquierda . 'px'}}; top:{{$elemento->espacio_arriba . 'px'}}"></iframe>

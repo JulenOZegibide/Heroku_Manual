@@ -4,11 +4,10 @@
 @if($bloques)
     <!--Si existen bloques recorro el array de bloques que contiene la pagina-->
     @foreach($bloques as $bloque)
-
         <h3>{{$bloque->titulo}}</h3>
-            @php
-            $columnas = $bloque->columna;
-            @endphp
+        @php
+        $columnas = $bloque->columna;
+        @endphp
         <div style="width: 1260px;margin: 0 auto;height: 300px;position: relative;">
             <!--Recorro las columnas que contiene cada bloque-->
             @foreach($columnas as $columna)
@@ -21,7 +20,7 @@
                     <!--Recibe el atributo tipo desde base de datos y dependiendo de lo que reciba crea una imagen,parrafo o video-->
                     @switch($elemento->tipo)
                         @case('img')
-                            <img src="{{$elemento->contenido}}" style="position: absolute; width: {{$elemento->ancho . 'px'}}; height: {{$elemento->alto . 'px'}}; left:{{$elemento->espacio_izquierda . 'px'}}; top:{{$elemento->espacio_arriba . 'px'}}">
+                            <img src="{{secure_asset('ImagenesBD/' . $elemento->contenido)}}" style="position: absolute; width: {{$elemento->ancho . 'px'}}; height: {{$elemento->alto . 'px'}}; left:{{$elemento->espacio_izquierda . 'px'}}; top:{{$elemento->espacio_arriba . 'px'}}">
                         @break
                         @case('title')
                         <h4 style="position: absolute; width: {{$elemento->ancho . 'px'}}; height: {{$elemento->alto . 'px'}}; left:{{$elemento->espacio_izquierda . 'px'}}; top:{{$elemento->espacio_arriba . 'px'}}">{{$elemento->contenido}}</h4>

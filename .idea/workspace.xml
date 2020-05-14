@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75b8eb69-850d-460e-962f-12565fcfb886" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/ImagenesBD/bin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ImagenesBD/descarga.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ImagenesBD/efecto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ImagenesBD/mundo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ImagenesBD/play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ImagenesBD/png.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ImagenesBD/triangle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ImagenesBD/youtube.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/menulateral.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/menulateral.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/page.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/page.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -123,16 +131,16 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http/Controllers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\F540U\Documents\code\Heroku_Manual\public" />
       <recent name="C:\Users\F540U\Documents\code\Heroku_Manual\app\Http\Controllers" />
       <recent name="C:\Users\F540U\Documents\code\Heroku_Manual\resources\views" />
       <recent name="C:\Users\F540U\Documents\code\Heroku_Manual\public\js" />
       <recent name="C:\Users\F540U\Documents\code\Heroku_Manual\public\img" />
-      <recent name="C:\Users\F540U\Documents\code\Heroku_Manual\public\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -165,7 +173,7 @@
       <updated>1589377670738</updated>
       <workItem from="1589377671944" duration="2912000" />
       <workItem from="1589398799623" duration="1306000" />
-      <workItem from="1589453012931" duration="969000" />
+      <workItem from="1589453012931" duration="5385000" />
     </task>
     <servers />
   </component>

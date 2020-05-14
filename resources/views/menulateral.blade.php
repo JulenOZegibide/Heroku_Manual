@@ -97,29 +97,4 @@
             @endforeach
         </ul>
     </div>
-{{--<script>--}}
-{{--    function mostrarPagina(id){--}}
-{{--    $.ajax({--}}
-{{--    url: "?action=mostrar&id=" + id,--}}
-{{--    type: "GET",--}}
-{{--    async: false,--}}
-{{--    success: function (result) {--}}
-{{--    console.log(result)--}}
-{{--    },--}}
-{{--    error: function (xhr, ajaxOptions, thrownError) {--}}
-{{--    console.log(thrownError)--}}
-{{--    }--}}
-{{--    });--}}
-{{--    }--}}
-{{--</script>--}}
-{{-- <?php--}}
-{{-- if (isset($_GET["action"])) {--}}
-{{--     $action = $_GET["action"];--}}
-{{--     if($action == 'mostrar'){--}}
-{{--         if (isset($_GET["id"])) {--}}
-{{--             $id = $_GET["id"];--}}
-{{--             eval(app('App\Http\Controllers\PaginaController')->show($id));--}}
-{{--         }--}}
-{{--     }--}}
-{{-- }--}}
-{{-- ?>--}}
+

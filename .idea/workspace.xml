@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75b8eb69-850d-460e-962f-12565fcfb886" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_09_094908_create_paginas_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_03_09_094908_create_paginas_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_09_095149_create_bloques_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_03_09_095149_create_bloques_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_09_095357_create_elementos_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_03_09_095357_create_elementos_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_11_080610_create_columnas_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_03_11_080610_create_columnas_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_12_115612_create_circuitos_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_03_12_115612_create_circuitos_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/page.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/page.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/menulateral.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/menulateral.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -172,7 +164,8 @@
       <option name="presentableId" value="Default" />
       <updated>1589377670738</updated>
       <workItem from="1589377671944" duration="2912000" />
-      <workItem from="1589398799623" duration="99000" />
+      <workItem from="1589398799623" duration="1306000" />
+      <workItem from="1589453012931" duration="969000" />
     </task>
     <servers />
   </component>

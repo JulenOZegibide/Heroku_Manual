@@ -14,11 +14,8 @@
             @foreach($columnas as $columna)
             @php
                 $elementos = $columna->elemento;
-
             @endphp
                 <div id="column_container" style="border: 1px solid black; position: absolute; width: {{$columna->ancho . 'px'}}; height: {{$columna->alto . 'px'}}; left:{{$columna->espacio_izquierda . 'px'}}; top:{{$columna->espacio_arriba . 'px'}}">
-                <strong>{{$columna->titulo}}</strong>
-
                 <!--Recorro los elementos que contiene cada columna y los muestro-->
                 @foreach($elementos as $elemento)
                     <!--Recibe el atributo tipo desde base de datos y dependiendo de lo que reciba crea una imagen,parrafo o video-->

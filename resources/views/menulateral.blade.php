@@ -12,7 +12,7 @@
 
 
     <div id="drillmenu1" class="drillmenu">
-        <ul style="min-height: 100vh">
+        <ul style="min-height: 100%;">
             @foreach($circuitos as $circuito)
                 @php
                     $primernivel = \App\Circuito::select('*')->where('nivel' , '=' , 1)->where('id','=',$circuito->id)->get();

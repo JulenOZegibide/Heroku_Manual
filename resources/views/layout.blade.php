@@ -2,7 +2,8 @@
 <html>
 <head>
     <title>Manual SG</title>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/x-icon" href="{{secure_asset('img/logosg.png')}}"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!--Link para coger de internet el tipo de letra-->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet"></head>
@@ -15,6 +16,7 @@
 
     <!--CSS personalizado -->
     <link rel="stylesheet" type="text/css" href="{{secure_asset('css/navbar.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{secure_asset('css/page.css')}}">
     <link rel="stylesheet" type="text/css" href="{{secure_asset('css/index.css')}}">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -36,13 +38,13 @@
     <div id="menulateral" class="ocultar">
         <!--Añade la barra de navegacion desde otro fichero-->
         @include('menulateral')
+        @include('buscador')
     </div>
 
     <div id="contenedor">
         <!--Coje el contenido que se quiere mostrar y lo inserta en esta caja-->
         @yield('content')
     </div>
-
 
     <!--JS personalizado-->
     <script src="{{secure_asset('js/index.js')}}" ></script>

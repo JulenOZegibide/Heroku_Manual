@@ -17,22 +17,7 @@ class CircuitoController extends Controller
     {
         $circuitos = Circuito::all();
 
-        if ($request->buscar != null) {
-
-            $index = Bloque::select('*')->where('titulo', 'like', '%' . $request->buscar . '%')->get();
-
-            if(json_decode($index) == NULL){
-                $index = 'inicio';
-            }
-        }
-        else{
-            $index = 'inicio';
-        }
-
-
-
         return view('index', [
-            'index' => $index,
             'circuitos' => $circuitos
         ]);
     }

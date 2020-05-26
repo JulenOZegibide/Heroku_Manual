@@ -2,16 +2,8 @@
     font-family: 'Roboto Slab', serif;
 }
 body{
-    background-color: lightsteelblue;
+    background-color: #b0c9de52;
 }
 
-#contenedor iframe{
-    width: 50%;
-    height: 20rem;
-}
-#column_container{
-    display: flex;
-    padding: 3%;
-    flex-direction: column;
-}
+
 

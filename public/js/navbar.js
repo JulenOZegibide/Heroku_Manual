@@ -74,8 +74,8 @@ drilldownmenu.prototype.buildmenu=function($){
     this.$uls.each(function(i){ //loop through each UL
         var $thisul=$(this)
         if (i==0){ //if topmost UL
-            $('<li class="backcontroltitle" id="cabecera"><form id="buscador"><input type="text" id="busqueda" name="busqueda"><svg id="lupa"><path d="M18 16.5l-5.14-5.18h-.35a7 7 0 1 0-1.19 1.19v.35L16.5 18l1.5-1.5zM12 7A5 5 0 1 1 2 7a5 5 0 0 1 10 0z"></path></svg></form></li>').prependTo($thisul).click(function(e){e.preventDefault()})
-            thisdrill.$maindiv.css({height:'1200px', overflow:'hidden'}) //set main menu DIV's height to top level UL's height
+            $('<li class="backcontroltitle" id="cabecera"><input type="text" id="busqueda" name="busqueda" onkeyup="buscar(this.value)" autocomplete="off" spellcheck="false"><svg id="lupa"><path d="M18 16.5l-5.14-5.18h-.35a7 7 0 1 0-1.19 1.19v.35L16.5 18l1.5-1.5zM12 7A5 5 0 1 1 2 7a5 5 0 0 1 10 0z"></path></svg></li>').prependTo($thisul).click(function(e){e.preventDefault()})
+            thisdrill.$maindiv.css({height:'606px', overflow:'hidden'}) //set main menu DIV's height to top level UL's height
                 .data('h', parseInt(thisdrill.$maindiv.css('height')))
 
         }

@@ -10,8 +10,9 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/', 'CircuitoController@index')->name('index');;
+Route::get('/', 'CircuitoController@index')->name('index');
 
-Route::get('pagina/{id}', 'PaginaController@show')->name('pagina');;
+Route::get('paginaajax/{id}', 'PaginaController@ajaxshow')->name('paginaajax');
+Route::get('pagina/{id}', 'PaginaController@show')->name('pagina');
 
-Route::get('buscar', 'PaginaController@index')->name('buscar');;
+Route::get('buscar', 'PaginaController@index')->name('buscar');

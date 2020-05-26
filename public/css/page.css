@@ -1,0 +1,96 @@
+.column_container{
+    border: 1px solid black;
+    position: absolute;
+}
+.parrafo{
+    font-family: "Segoe UI", serif;
+    font-size: 9px;
+}
+#bloque{
+    width: 1260px;
+    margin: 0 auto;
+    height: 300px;
+    position: relative;
+}
+
+#contenedorImagenGrande{
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #33333385;
+    transition-duration: 10s;
+    position: fixed;
+}
+
+#imagenGrande{
+    padding: 0 10px 0 10px;
+    margin-top: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 100%;
+}
+
+#botonCerrar{
+    position: fixed;
+    top: 65px;
+    right: 2%;
+    width: 45px;
+    height: auto;
+}
+
+#botonCerrar:hover{
+    cursor: pointer;
+}
+
+.imagen:hover{
+    cursor: pointer;
+}
+
+.video,.parrafo,.imagen,.titulo{
+    padding-bottom: 5px;
+}
+
+/*propiedades css para cuando se disminuye el tamaño de la pestaña*/
+@media screen and (max-width: 1280px) {
+    .column_container{
+        width: 98% !important;
+        left: 0 !important;
+        top: 0 !important;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: auto!important;
+        padding: 5px!important;
+        margin: 5px auto;
+        align-content: center;
+        align-items: center;
+    }
+    #bloque{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%!important;
+    }
+    .video,.parrafo,.imagen,.titulo{
+        left: 0 !important;
+        top: 0 !important;
+        position: relative !important;
+    }
+    .titulo{
+        order: 1;
+    }
+    .parrafo{
+        width: 100%!important;
+        height: auto!important;
+        order: 2;
+    }
+    .imagen{
+        order: 3;
+    }
+    .video{
+        order: 4;
+    }
+}
+
+

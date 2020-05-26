@@ -46,6 +46,30 @@ class PaginaController extends Controller
     /**
      * Display the specified resource.
      *
+     * @param  \App\PaginaAjax  $pagina
+     * @return \Illuminate\Http\Response
+     */
+    public function ajaxshow(Request $request,$id)
+    {
+        $pagina = Pagina::find($id);
+
+        $bloques = $pagina->bloque;
+
+        $circuitos = Circuito::all();
+
+
+
+        return view('paginaAjax', [
+            "pagina" => $pagina,
+            "bloques" => $bloques,
+            'circuitos' => $circuitos
+        ]);
+
+    }
+
+    /**
+     * Display the specified resource.
+     *
      * @param  \App\Pagina  $pagina
      * @return \Illuminate\Http\Response
      */
@@ -59,7 +83,7 @@ class PaginaController extends Controller
 
 
 
-        return view('page', [
+        return view('pagina', [
             "pagina" => $pagina,
             "bloques" => $bloques,
             'circuitos' => $circuitos

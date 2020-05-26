@@ -1,3 +1,7 @@
+*:focus {
+    outline: none;
+}
+
 #menulateral{
     z-index: 2;
 }
@@ -8,6 +12,7 @@
     padding: 3px 10px;
 }
 #barranav{
+    min-width: 100%;
     position: sticky;
     height: 50px;
     display: flex;
@@ -23,7 +28,7 @@
     transition-duration: .7s;
 }
 .ocultar{
-    left: -20%;
+    left: -40%;
     width: 20% !important;
     position: fixed;
     transition-duration: 1s;
@@ -39,8 +44,10 @@
     border-radius: 17px;
     border: none;
     height: 32px;
-    margin: 0 5%;
-    width: 132%;
+    margin:20px 5%;
+    width: 90%;
+    padding: 0 2% 0 12%;
+    z-index: 2;
 }
 #lupa path {
     fill: gray;
@@ -57,11 +64,7 @@
     height: auto;
     margin: -14px 0 -16px 11%;
 }
-#buscador{
-    width: 70%;
-    float: left;
-    margin-top: 20px;
-}
+
 #cabecera{
     border: .4px solid #186fc3ab;
     background-color: #1874ce;
@@ -69,6 +72,9 @@
 }
 
 /*Codigo estilo del menu lateral*/
+.drillmenu{
+    width: 300px;
+}
 
 .drillmenu ul{ /*menu ULs*/
     font: normal 13px Verdana;
@@ -83,9 +89,12 @@
     color: black;
     text-decoration: none;
     padding: 5px;
-    word-break-wrap: 1;
+    z-index: 1;
 }
-
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
 * html .drillmenu li{ /*IE6 CSS hack*/
     display: inline-block;
 }
@@ -102,28 +111,113 @@
     background: whitesmoke;
 }
 
-li.backcontroltitle{ /*style of top level menu title*/
+li.backcontroltitle{
     background: black;
     color: white;
     padding: 4px;
 }
 
-li.backcontrol{ /*style of back button control that gets added to the top of each sub UL*/
+li.backcontrol{
     background: #19426b;
     color: white;
     cursor: hand;
-    cursor: pointer;
     height: 45px;
 }
+
+backcontrol:hover{
+    cursor: hand;
+}
+
 #textoretroceder{
     font-size: 19px;
     margin: -35px 0 0 56px;
 }
-#drillcrumb{ /*custom, user defined DIV that contains breadcrumb trail*/
+
+#drillcrumb{
     margin-bottom: 5px;
     font: bold 13px Verdana;
 }
 
-#drillcrumb a{ /*custom element*/
+#drillcrumb a{
     color: darkred;
+}
+
+#resultado{
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+    border: none;
+    z-index: 2;
+    position: fixed;
+    top: 105px;
+    width: 262px;
+    background-color: white;
+    height: auto;
+    left: 19px;
+    padding: 0 2%;
+}
+
+.enlacePagina{
+    border:none;
+    background-color: white;
+    width: 100%;
+    text-align: left;
+}
+
+.enlacePagina:focus {
+    outline: none;
+}
+
+/*responsive web design*/
+
+/*pestaña de tamaño medio para el menu lateral*/
+@media screen and (max-width: 790px) {
+    .mostrar{
+        left:0;
+    }
+
+    .ocultar{
+        left: -60%;
+    }
+
+    .arrowclass{
+        left:280px !important;
+    }
+}
+
+/*pestaña pequeña para el menu lateral*/
+@media screen and (max-width: 520px) {
+    .drillmenu{
+        width: 100vw;
+    }
+
+    .mostrar{
+        display: inline-block;
+    }
+
+    .ocultar{
+        display: none;
+    }
+
+    .arrowclass{
+        left:92.5% !important;
+    }
+}
+/*pestaña pequeña para la barra horizontal*/
+@media screen and (max-width: 460px) {
+    #info{
+        display: none;
+    }
+
+    #logo{
+        order: 1;
+        margin-left: 0;
+    }
+
+    #menubutton{
+        order: 2;
+    }
+
+    #menubutton img{
+        margin-left: -20%;
+    }
 }

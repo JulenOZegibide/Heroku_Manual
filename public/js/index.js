@@ -69,14 +69,11 @@ function buscar(texto) {
     }
 
     if(texto != ""){
-        resultado.style.visibility = "visible";
-
         if ( resultado.hasChildNodes() )
         {
             while ( resultado.childNodes.length >= 1 )
             {
                 resultado.removeChild( resultado.firstChild );
-
             }
         }
 
@@ -84,8 +81,10 @@ function buscar(texto) {
         $.ajax({
             url: '/?busqueda=' + texto ,
             type: "get",
-            async : true,
+            async : false,
             success: function (result) {
+                resultado.style.visibility = "visible";
+
                 buscador.style.borderBottomLeftRadius = "0";
                 buscador.style.borderBottomRightRadius = "0";
 

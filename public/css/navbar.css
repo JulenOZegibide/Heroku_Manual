@@ -124,7 +124,7 @@ li.backcontrol{
     height: 45px;
 }
 
-backcontrol:hover{
+.backcontrol:hover{
     cursor: hand;
 }
 
@@ -153,7 +153,9 @@ backcontrol:hover{
     background-color: white;
     height: auto;
     left: 19px;
-    padding: 0 2%;
+    padding: 0 10px;
+    overflow: scroll;
+    max-height: 540px;
 }
 
 .enlacePagina{
@@ -201,9 +203,17 @@ backcontrol:hover{
     .arrowclass{
         left:92.5% !important;
     }
-}
-/*pestaña pequeña para la barra horizontal*/
-@media screen and (max-width: 460px) {
+
+    #resultado{
+        width: 88.4%!important;
+        margin-left: 2%!important
+    }
+
+    #busqueda{
+        width: 90%!important;
+        margin-left: 5%!important;
+    }
+
     #info{
         display: none;
     }
@@ -221,3 +231,4 @@ backcontrol:hover{
         margin-left: -20%;
     }
 }
+

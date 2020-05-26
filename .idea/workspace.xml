@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75b8eb69-850d-460e-962f-12565fcfb886" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/img/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/buscador.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pagina.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/paginaAjax.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CircuitoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CircuitoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PaginaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PaginaController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/page.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/buscador.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/buscador.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/menulateral.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/menulateral.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/page.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -195,6 +185,7 @@
       <workItem from="1590146606572" duration="5409000" />
       <workItem from="1590395326055" duration="16332000" />
       <workItem from="1590489002585" duration="11778000" />
+      <workItem from="1590525335226" duration="2960000" />
     </task>
     <servers />
   </component>

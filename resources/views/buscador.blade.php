@@ -18,7 +18,6 @@ function buscarPaginas($busqueda){
                     document.getElementById('busqueda').style.borderBottomLeftRadius = '17px';
                     document.getElementById('busqueda').style.borderBottomRightRadius = '17px';
                 });
-                pagina.setAttribute('id', '{$pagina->id}');
                 pagina.setAttribute('class', 'enlacePagina');
                 document.getElementById('resultado').appendChild(pagina);
               </script>";

@@ -20,7 +20,7 @@
     <link rel="stylesheet" type="text/css" href="{{secure_asset('css/index.css')}}">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 
     <!--JS personalizado-->
     <script src="{{secure_asset('js/navbar.js')}}" ></script>

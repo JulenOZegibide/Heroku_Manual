@@ -16,7 +16,7 @@ class CreateElementosTable extends Migration
         Schema::create('elementos', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('tipo');
-            $table->string('contenido');
+            $table->Text('contenido');
             $table->unsignedBigInteger('columna_id');
             $table->string('ancho');
             $table->Integer('espacio_izquierda');

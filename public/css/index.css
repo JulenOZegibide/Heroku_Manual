@@ -5,11 +5,21 @@ body{
     background-color: #b0c9de52;
 }
 
-.triangulo {
-    width: 0;
-    height: 0;
-    border-top: 577px solid transparent;
-    border-left: 1365px solid #f0ad4e;
+#inicio{
+    height: 100vh;
+    background-image: url("../img/fondo.jpg");
+    margin-top: -50px;
+    padding-top: 50px;
 }
 
+#videosInicio{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
 
+#tituloIndex{
+    text-align: center;
+    font-size: 70px;
+    margin-top: 4%;
+}

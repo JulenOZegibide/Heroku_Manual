@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75b8eb69-850d-460e-962f-12565fcfb886" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/img/fondo.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_09_095357_create_elementos_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_03_09_095357_create_elementos_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/navbar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/buscador.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/buscador.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/navbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -140,15 +144,15 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\F540U\Documents\code\Heroku_Manual\resources\views" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\F540U\Documents\code\Heroku_Manual\public\img" />
       <recent name="C:\Users\F540U\Documents\code\Heroku_Manual\resources\views" />
       <recent name="C:\Users\F540U\Documents\code\Heroku_Manual\public" />
       <recent name="C:\Users\F540U\Documents\code\Heroku_Manual\app\Http\Controllers" />
       <recent name="C:\Users\F540U\Documents\code\Heroku_Manual\public\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\F540U\Documents\code\Heroku_Manual\resources\views" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -186,6 +190,9 @@
       <workItem from="1590395326055" duration="16332000" />
       <workItem from="1590489002585" duration="11778000" />
       <workItem from="1590525335226" duration="2960000" />
+      <workItem from="1590587689780" duration="2052000" />
+      <workItem from="1590606430746" duration="202000" />
+      <workItem from="1590656808393" duration="11637000" />
     </task>
     <servers />
   </component>

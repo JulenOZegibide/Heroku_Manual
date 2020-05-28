@@ -16,7 +16,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'nombre', 'biografia', 'email', 'password', 'sector_donde_trabaja', 'url_foto', 'google_id'
+        'name', 'email', 'password',
     ];
 
     /**
@@ -36,18 +36,4 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
-
-    public function preguntas()
-    {
-        return $this->hasMany('App\Pregunta');
-    }
-
-    public function respuestas()
-    {
-        return $this->hasMany('App\Respuesta');
-    }
-
-    public function favoritos() {
-        return $this->hasMany('App\Favorito');
-    }
 }

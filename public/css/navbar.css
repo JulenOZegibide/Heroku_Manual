@@ -82,6 +82,7 @@
     padding: 0;
     list-style-type: none;
     background: whitesmoke; /*background of menu*/
+    height: 100% !important;
 }
 
 .drillmenu li a{ /*menu links*/
@@ -100,8 +101,8 @@
 }
 
 .drillmenu li a button:hover{
-    background-color: #19426b;
-    color: white;
+    background-color: #19426b!important;
+    color: white!important;
 }
 .drillmenu button{
     width: 100%;
@@ -109,6 +110,10 @@
     padding: 5px;
     word-break-wrap: 1;
     background: whitesmoke;
+}
+
+.drillmenu button:focus{
+    outline: none;
 }
 
 li.backcontroltitle{
@@ -147,22 +152,24 @@ li.backcontrol{
     border-bottom-right-radius: 17px;
     border: none;
     z-index: 2;
-    position: fixed;
-    top: 105px;
-    width: 262px;
+    position: absolute;
+    top: 57px;
+    width: 87%;
     background-color: white;
     height: auto;
-    left: 19px;
-    padding: 0 10px;
+    left: 20px;
     overflow: scroll;
     max-height: 540px;
 }
 
 .enlacePagina{
-    border:none;
-    background-color: white;
-    width: 100%;
+    background-color: white !important;
     text-align: left;
+    padding: 5px!important;
+}
+
+.enlacePagina:hover{
+    background-color: #cbcbcb66 !important;
 }
 
 .enlacePagina:focus {
@@ -189,7 +196,7 @@ li.backcontrol{
 /*pestaña pequeña para el menu lateral*/
 @media screen and (max-width: 520px) {
     .drillmenu{
-        width: 100vw;
+        width: 100%;
     }
 
     .mostrar{
@@ -205,13 +212,13 @@ li.backcontrol{
     }
 
     #resultado{
-        width: 88.4%!important;
-        margin-left: 2%!important
+        width: 88.2%!important;
+        margin-left: 2.5%!important;
     }
 
     #busqueda{
         width: 90%!important;
-        margin-left: 5%!important;
+        margin-left: 2%!important;
     }
 
     #info{

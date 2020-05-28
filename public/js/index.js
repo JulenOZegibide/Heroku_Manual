@@ -81,6 +81,7 @@ document.getElementById("logo").addEventListener("click", function(){
         type: "get",
         success: function (result) {
             window.history.pushState('', 'Manual SG', '/');
+            menulateral.classList.add("ocultar");
             let stringInicio = "        <div id=\"inicio\">\n" +
                 "            <h1 id=\"tituloIndex\">MANUAL WONTAW Y WONTAGES</h1>\n" +
                 "            <div id=\"videosInicio\">\n" +

@@ -81,6 +81,7 @@ document.getElementById("logo").addEventListener("click", function(){
         type: "get",
         success: function (result) {
             window.history.pushState('', 'Manual SG', '/');
+            menulateral.classList.remove("mostrar");
             menulateral.classList.add("ocultar");
             menuimg.style.transform='rotate(0deg)';
             let stringInicio = "        <div id=\"inicio\">\n" +

@@ -82,6 +82,7 @@ document.getElementById("logo").addEventListener("click", function(){
         success: function (result) {
             window.history.pushState('', 'Manual SG', '/');
             menulateral.classList.add("ocultar");
+            menuimg.style.transform='rotate(0deg)';
             let stringInicio = "        <div id=\"inicio\">\n" +
                 "            <h1 id=\"tituloIndex\">MANUAL WONTAW Y WONTAGES</h1>\n" +
                 "            <div id=\"videosInicio\">\n" +
